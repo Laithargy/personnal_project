@@ -1,0 +1,17 @@
+body {
+	background-color: #505050;
+	margin-left: 15%;
+}
+
+.lrow {
+	width: 80px;
+	border: 3px solid #909090;
+	border-radius: 10px;
+	background-color: #909090;
+	box-shadow: 5px 5px 8px #000000;
+	text-align: center;
+}
+
+.left-img {
+	 width : 55px;
+}
