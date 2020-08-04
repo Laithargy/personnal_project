@@ -28,15 +28,14 @@ body
 }
 
 .left, .right {
-	height: 10%;
-	flex
+	height: 65%;
 }
 
 .left img {
 	width: 80px;
 }
 
-.right img {
+.limg {
 	width: 80px;
 	flex-grow: 3;
 }
