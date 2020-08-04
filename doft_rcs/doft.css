@@ -3,7 +3,53 @@ body
 	background-color: #4d4d4f;
 }
 
-header
-{
-	background-color: #98989a;
+#head-cont {
+	display: flex;
+	background-color: #909090;
+	border-radius: 15px;
+	box-shadow: 15px 15px 15px #000000;
+}
+
+.body-cont {
+	display: flex;
+	flex-direction: row;
+	border-radius: 15px;
+	align-content: space-around;
+	justify-content: center;
+	height: 100%;
+}
+
+.body-cont > div {
+	padding: 25px;
+	margin: 20px;
+	background-color:#909090;
+	border-radius: 15px;
+	box-shadow: 15px 15px 15px #000000;
+}
+
+.left, .right {
+	height: 10%;
+	flex
+}
+
+.left img {
+	width: 80px;
+}
+
+.right img {
+	width: 80px;
+	flex-grow: 3;
+}
+
+#oeil {
+	display: inline-block;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 5px;
+	border-color : red;
+}
+
+#doft { 
+	height: 120px;
+	width: 25px;
 }
