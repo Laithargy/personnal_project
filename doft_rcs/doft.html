@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <head>
-    <title>Day of the 42</title>
-    <link rel="stylesheet" type="text/css" href="doft.css">
-    <meta charset="UTF-8">
-    <html lang="fr">
+	<title>Day of the 42</title>
+	<link rel="stylesheet" type="text/css" href="doft.css">
+	<meta charset="UTF-8">
+	<html lang="fr">
 </head>
 <body>
-    <header>
-        <p>Day of the 42</p>
-    </header>
-    <main>
-        <a><img src="resources/cluster.jpg" alt="Dayofthe42"></a>
-    </main>
+	<header>
+		<div id="head-cont">
+			<div>
+				<img id="doft" src="resources/day_of_the_42.png" title="Titre" alt="Dayofthe42" style="width: 85%;">
+			</div>
+			<div>
+				<img src="resources/loupe.png" title="Zoom" alt="zoom" style="width: 50px;">
+			</div>
+			<div>
+				<a href="https://www.disney.com">
+					<img src="resources/reload.png" title="Recommencer au début" alt="Recommencer au début" style="width: 20px;">
+				</a>
+				<a href="https://www.relaischateaux.com">
+					<img src="resources/close.gif" title="Déconnecter" alt="Déconnecter" style="width: 20px;">
+				</a>
+			</div>
+		</div>
+	</header>
+</br>
+</br>
+	<main>
+		<div class="body-cont">
+			<div class="left">
+				<img src="resources/arrow.png" title="Avancer" alt="Avancer"></br>
+				<img src="resources/main.png" title="Prendre" alt="Prendre"></br>
+				<img id="oeil" src="resources/oeil.png" title="Regarder" alt="Regarder"></br>
+				<img src="resources/outil.png" title="Utiliser" alt="Utiliser"></br>
+				<img src="resources/chat-icon.png" title="Parler" alt="Parler"></br>
+			</div>
+			<div class="midimg">
+				<div class="chatbox">
+					<form id="chat2">
+					<label for="question">Vous <span id="entrez">entrez</span> alors dans une grande piece remplie</br>
+					d'<span id="ordi">ordinateurs</span>...</br>
+					<span id="line">-Bonjour, vous êtes nouveau ici ?</span></label>
+						<input type="text" name="réponse" size="55">
+						<input type="submit" value="Repondre">
+					</form>
+				</div>
+				<img src="resources/cluster.jpg" title="doft" alt="Dayofthe42">
+			</div>
+			<div class="right">
+				<img class="rimg" src="resources/book.png" title="book" alt="livre"></br>
+				<img class="rimg" src="resources/towel.png" title="towel" alt="serviette"></br>
+				<div id="wall"></div>
+			</div>
+		</div>
+		<map name="click">
+			<area shape="rect" coords="" alt="chaise" href="https://www.ikea.com">
+			<area shape="rect" coords="" alt="ecran" href="https://www.apple.com">
+		</map>
+	</main>
 </body>
