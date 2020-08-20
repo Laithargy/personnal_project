@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <head>
 	<title>Day of the 42</title>
-	<link rel="stylesheet" type="text/css" href="doft.css">
+	<link rel="stylesheet" type="text/css" href="doft1.css">
 	<meta charset="UTF-8">
 	<html lang="fr">
 </head>
 <body>
-	<div id="block">
-		<div id="head-cont">
-			<div>
-				<img id="doft" src="resources/day_of_the_42.png" title="Titre" alt="Dayofthe42">
-			</div>
-			<div>
-				<img id="loupe" src="resources/loupe.png" title="Zoom" alt="zoom">
-			</div>
-			<div>
-				<a href="https://www.disney.com">
-					<img id="reload" src="resources/reload.png" title="Recommencer au début" alt="Recommencer au début">
-				</a>
-				<a href="https://www.relaischateaux.com">
-					<img id="close" src="resources/close.gif" title="Déconnecter" alt="Déconnecter">
-				</a>
-			</div>
+	<div class="full-block">
+		<div class="entete">
+			<img id="doft" src="resources/day_of_the_42.png" title="Titre" alt="Dayofthe42">
+			<img id="loupe" src="resources/loupe.png" title="Zoom" alt="zoom">
+			<a href="https://www.disney.com">
+				<img id="reload" src="resources/reload.png" title="Recommencer au début" alt="Recommencer au début">
+			</a>
+			<a href="https://www.relaischateaux.com">
+				<img id="close" src="resources/close.gif" title="Déconnecter" alt="Déconnecter">
+			</a>
 		</div>
-		<div class="body-cont">
+		<div class="corps">
 			<div class="left">
 				<img src="resources/arrow.png" title="Avancer" alt="Avancer"></br>
 				<img src="resources/main.png" title="Prendre" alt="Prendre"></br>
@@ -31,13 +25,13 @@
 				<img src="resources/outil.png" title="Utiliser" alt="Utiliser"></br>
 				<img src="resources/chat-icon.png" title="Parler" alt="Parler"></br>
 			</div>
-			<div class="midimg">
+			<div class="middle">
 				<div class="chatbox">
 					<form id="chat2">
 					<label for="question">Vous <span id="entrez">entrez</span> alors dans une grande piece remplie</br>
 					d'<span id="ordi">ordinateurs</span>...</br>
 					<span id="line">-Bonjour, vous êtes nouveau ici ?</span></label>
-						<input type="text" name="réponse" size="55">
+						<input type="text" name="réponse" size="53">
 						<input type="submit" value="Repondre">
 					</form>
 				</div>
@@ -49,9 +43,9 @@
 				<div id="wall"></div>
 			</div>
 		</div>
-		<map name="click">
-			<area shape="rect" coords="" alt="chaise" href="https://www.ikea.com">
-			<area shape="rect" coords="" alt="ecran" href="https://www.apple.com">
-		</map>
 	</div>
+	<map name="click">
+		<area shape="rect" coords="" alt="chaise" href="https://www.ikea.com">
+		<area shape="rect" coords="" alt="ecran" href="https://www.apple.com">
+	</map>
 </body>

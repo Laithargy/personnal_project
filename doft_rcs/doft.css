@@ -1,13 +1,12 @@
 body	
 {
 	background-color: #4d4d4f;
-	padding-left: 150px;
-	padding-right: 150px;
+	width: 80%;
 	padding-top: 20px;
 }
 
 label {
-	font-size: 15px;
+	font-size: 20px;
 	width: 550px;
 	font-family: sans-serif;
 } 
@@ -15,8 +14,10 @@ label {
 #head-cont {
 	display: flex;
 	background-color: #909090;
+	margin-left: auto;
 	border-radius: 15px;
 	box-shadow: 15px 15px 15px #000000;
+	justify-content: center;
 }
 
 .body-cont {
@@ -28,7 +29,6 @@ label {
 }
 
 .body-cont > div {
-	/* padding: 15px; */
 	margin: 20px;
 	background-color:#909090;
 	border-radius: 15px;
@@ -73,7 +73,6 @@ label {
 	width: 995px;
 	height: 565px;
 	padding: 10px;
-	/* width: 985; */
 	position: static;
 	z-index: 1;
 }
@@ -99,7 +98,7 @@ label {
 	padding-right: 50px;
 	left: 20px;
 	z-index: 2;
-	font-size: 18px;
+	font-size: 20px;
 	letter-spacing: 1.5px;
 }
 
@@ -110,7 +109,6 @@ input[type=text] {
 
 input[type=submit] {
 	box-sizing: border-box ;
-	/* border: 1px solid #ccc; */
 }
 
 #wall {
@@ -121,17 +119,43 @@ input[type=submit] {
 
 #doft { 
 	height: 120px;
-	width: 25px;
+	width: 450px;
+	padding: 15px;
+	padding-right: 700px;
 }
 
 #entrez {
-	font-size: 34px;
+	font-size: 37px;
+	font-family: sans-serif;
 }
 
 #ordi {
-	text-shadow: 5px 5px 7px #ab1616;
+	text-shadow: 5px 5px 7px #ed212f;
 }
 
 #line {
 	font-style: italic;
+}
+
+#loupe {
+	width: 300px;
+	margin-bottom: -165px;
+}
+
+#reload {
+	width: 20px;
+	display: block;
+	padding-top: 10px;
+}
+
+#close {
+	width: 20px;
+	padding-top: 90px;
+}
+
+#block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }

@@ -1,0 +1,141 @@
+body {
+	background-color: #4d4d4f;
+	font-size: 18px;
+}
+
+.full-block {
+	display: flex;
+	width: 87%;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+}
+
+.full-block > div {
+	justify-content: space-between;
+}
+
+.entete {
+	display: flex;
+	width: 90%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px #000000;
+	background-color: #909090;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	justify-content: space-between;
+}
+
+.corps {
+	display: flex;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 1.5%;
+}
+
+.corps > div {
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px #000000;
+	background-color: #909090;
+	overflow: auto;
+	align-content: center;
+	padding: %;
+}
+
+.left, .right {
+	width: 140px;
+	height: 425px;
+	padding-top: 10px;
+}
+
+.left img {
+	width: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.right img {
+	width: 70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wall {
+	width: 125px;
+	height: 70px;
+	background: repeat url(resources/brick.jpg);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#oeil {
+	display: block;
+	border-style: solid;
+	padding : 0px;
+	border-radius: 5px;
+	border-width: 5px;
+	border-color : red;
+}
+
+#doft { 
+	height: 80%;
+	width: 30%;
+	padding: 15px;
+	padding-right: 700px;
+}
+
+.middle {
+	padding: 10px;
+}
+
+.middle img {
+	width: 100%;
+}
+
+.chatbox {
+	display: inline-block;
+	border-radius: 15px;
+	background-color: #88ff89;
+	box-shadow: 15px 15px 15px #000000;
+	position: absolute;
+	align-content: flex-end;
+	width: 26%;
+	height: 18%;
+	text-align: left;
+	padding-top: 7px;
+	padding-inline-start: 10px;
+	z-index: 2;
+	letter-spacing: 1.5px;
+	margin-left: -12%;
+	bottom: 7%;
+	font-family: 'Times New Roman', Times, sans-serif;
+}
+
+input[type=text] {
+	display: inline-block;
+	border: 2px solid #ccc;
+}
+
+input[type=submit] {
+	box-sizing: border-box ;
+}
+
+#entrez {
+	font-size: 35px;
+}
+
+#ordi {
+	text-shadow: 5px 5px 7px red;
+}
+
+#line {
+	font-style: italic;
+	font-size: 19px;
+}
