@@ -1,6 +1,7 @@
 body	
 {
 	background-color: #4d4d4f;
+<<<<<<< HEAD
 	width: 80%;
 	padding-top: 20px;
 }
@@ -158,4 +159,11 @@ input[type=submit] {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
+=======
+}
+
+header
+{
+	background-color: #98989a;
+>>>>>>> d7f366e3946dfe34839529a8ed71df82fb166c36
 }
