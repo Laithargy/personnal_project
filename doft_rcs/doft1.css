@@ -1,6 +1,7 @@
 body {
 	background-color: #4d4d4f;
 	font-size: 18px;
+	font-family: 'Times New Roman', Times, sans-serif;
 }
 
 .full-block {
@@ -155,10 +156,7 @@ input[type=submit] {
 
 .grosse_loupe img {
 	display: block;
-	margin-bottom: -10%;
-	top: 10%;
-	right: 3%;
-	position: absolute;
+	float: right;
 }
 
 .miniature img {
@@ -167,10 +165,21 @@ input[type=submit] {
 	float: right;
 }
 
+#loupe {
+	position: absolute;
+	top: 7%;
+	right: 2%;
+}
+
 #reload {
-	bottom: 0px;
+	position: absolute;
+	top: 4%;
+	right: 0.8%;
 }
 
 #close {
-	top: 10px;
+	top: 78%;
+	right: 0.8%;
+	position: absolute;
+	overflow: visible;
 }
